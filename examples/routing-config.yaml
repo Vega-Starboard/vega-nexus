@@ -1,0 +1,13 @@
+providers:
+  deepseek-flash:
+    cost: 1
+    latency: 1
+    risk_ceiling: 2
+  deepseek-v4-pro:
+    cost: 2
+    latency: 2
+    risk_ceiling: 3
+  codex-gpt:
+    cost: 5
+    latency: 3
+    risk_ceiling: 5

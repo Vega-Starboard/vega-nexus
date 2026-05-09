@@ -1,0 +1,53 @@
+{
+  "providers": {
+    "deepseek-flash": {
+      "cost": 1,
+      "latency": 1,
+      "risk_ceiling": 2,
+      "strength": [
+        "bulk",
+        "metadata",
+        "formatting"
+      ]
+    },
+    "deepseek-v4-pro": {
+      "cost": 2,
+      "latency": 2,
+      "risk_ceiling": 3,
+      "strength": [
+        "implementation",
+        "research",
+        "drafts"
+      ]
+    },
+    "codex-gpt": {
+      "cost": 5,
+      "latency": 3,
+      "risk_ceiling": 5,
+      "strength": [
+        "architecture",
+        "security",
+        "integration"
+      ]
+    },
+    "claude": {
+      "cost": 4,
+      "latency": 3,
+      "risk_ceiling": 4,
+      "strength": [
+        "critique",
+        "long-context"
+      ]
+    },
+    "ollama": {
+      "cost": 0,
+      "latency": 5,
+      "risk_ceiling": 1,
+      "strength": [
+        "local",
+        "privacy",
+        "offline"
+      ]
+    }
+  }
+}
