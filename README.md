@@ -1,5 +1,8 @@
 # Vega Nexus
 
+[![Release](https://img.shields.io/github/v/release/Vega-Starboard/vega-nexus?label=release)](https://github.com/Vega-Starboard/vega-nexus/releases/tag/v0.1.0)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Vega Nexus is a local orchestration router for deciding which AI provider should handle a task. It is not a model provider and does not require API keys for dry-run routing.
 
 ## Features
@@ -27,7 +30,7 @@ PYTHONPATH=src python3 -m vega_nexus explain --last-run
 
 ## Status
 
-MVP. Dry-run routing works locally and records inspectable route decisions.
+MVP. `v0.1.0` is released. Dry-run routing works locally and records inspectable route decisions.
 
 ## Roadmap
 
